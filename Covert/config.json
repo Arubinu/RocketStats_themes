@@ -1,0 +1,187 @@
+{
+	"author":		"Arubinu42",
+	"version":		"v1.0.1",
+	"date":			"19/02/2022",
+	"x":			"100vw - (100% + 40 )",
+	"y":			"100vh - (100% + 140 )",
+	"width":		500,
+	"height":		100,
+	"font":			[ "Elmono.ttf", 35 ],
+	"scale":		1.0,
+	"rotate":		0.0,
+	"opacity":		1.0,
+	"elements": [
+		{
+			"name":			"top",
+			"type":			"rectangle",
+			"x":			0,
+			"y":			0,
+			"width":		"100%",
+			"height":		15,
+			"rounding":		5,
+			"fill":			[ 0, 115, 165 ],
+			"stroke":		false
+		},
+		{
+			"name":			"box",
+			"type":			"rectangle",
+			"x":			0,
+			"y":			10,
+			"width":		"100%",
+			"height":		"100% - 10px",
+			"scale":		2,
+			"fill":			[ 6, 143, 206 ],
+			"stroke":		[ 0, 115, 165 ]
+		},
+		{
+			"name":			"rank_circle",
+			"type":			"circle",
+			"x":			5,
+			"y":			5,
+			"radius":		25,
+			"segments":		20,
+			"scale":		4,
+			"fill":			[ 255, 255, 255, 0.8 ],
+			"stroke":		[ 6, 143, 206, 1 ]
+		},
+		{
+			"name":			"rank",
+			"type":			"image",
+			"file":			"{{Rank}}",
+			"x":			5,
+			"y":			5,
+			"align":		"center",
+			"valign":		"middle",
+			"scale":		1
+		},
+		{
+			"name":			"mmr_name",
+			"type":			"text",
+			"value":		"MMR",
+			"x":			87,
+			"y":			35,
+			"align":		"center",
+			"valign":		"middle",
+			"color":		[ 255, 255, 255 ],
+			"scale":		0.4
+		},
+		{
+			"name":			"mmr_separator",
+			"type":			"line",
+			"x1":			"87px - 30px",
+			"y1":			47,
+			"x2":			"87px + 30px",
+			"y2":			47,
+			"color":		[ 0, 0, 0, 0.15 ],
+			"scale":		1.1
+		},
+		{
+			"name":			"mmr",
+			"type":			"text",
+			"value":		"{{MMR}}",
+			"x":			87,
+			"y":			78,
+			"align":		"center",
+			"valign":		"middle",
+			"color":		[ 255, 255, 255 ],
+			"scale":		0.5
+		},
+		{
+			"name":			"win_name",
+			"type":			"text",
+			"value":		"Wins",
+			"x":			205,
+			"y":			35,
+			"align":		"center",
+			"valign":		"middle",
+			"color":		[ 255, 255, 255 ],
+			"scale":		0.4
+		},
+		{
+			"name":			"win_separator",
+			"type":			"line",
+			"x1":			"205px - 30px",
+			"y1":			47,
+			"x2":			"205px + 30px",
+			"y2":			47,
+			"color":		[ 0, 0, 0, 0.15 ],
+			"scale":		1.1
+		},
+		{
+			"name":			"win",
+			"type":			"text",
+			"value":		"{{Win}}",
+			"x":			205,
+			"y":			78,
+			"align":		"center",
+			"valign":		"middle",
+			"color":		[ 255, 255, 255 ],
+			"scale":		0.5
+		},
+		{
+			"name":			"loss_name",
+			"type":			"text",
+			"value":		"Looses",
+			"x":			315,
+			"y":			35,
+			"align":		"center",
+			"valign":		"middle",
+			"color":		[ 255, 255, 255 ],
+			"scale":		0.4
+		},
+		{
+			"name":			"loss_separator",
+			"type":			"line",
+			"x1":			"315px - 30px",
+			"y1":			47,
+			"x2":			"315px + 30px",
+			"y2":			47,
+			"color":		[ 0, 0, 0, 0.15 ],
+			"scale":		1.1
+		},
+		{
+			"name":			"loss",
+			"type":			"text",
+			"value":		"{{Loss}}",
+			"x":			315,
+			"y":			78,
+			"align":		"center",
+			"valign":		"middle",
+			"color":		[ 255, 255, 255 ],
+			"scale":		0.5
+		},
+		{
+			"name":			"streak_name",
+			"type":			"text",
+			"value":		"Streak",
+			"x":			425,
+			"y":			35,
+			"align":		"center",
+			"valign":		"middle",
+			"color":		[ 255, 255, 255 ],
+			"scale":		0.4
+		},
+		{
+			"name":			"streak_separator",
+			"type":			"line",
+			"x1":			"425px - 30px",
+			"y1":			47,
+			"x2":			"425px + 30px",
+			"y2":			47,
+			"color":		[ 0, 0, 0, 0.15 ],
+			"scale":		1.1
+		},
+		{
+			"name":			"streak",
+			"type":			"text",
+			"value":		"{{Streak}}",
+			"sign":			"Streak",
+			"x":			425,
+			"y":			78,
+			"align":		"center",
+			"valign":		"middle",
+			"color":		[ 255, 255, 255 ],
+			"scale":		0.5
+		}
+	]
+}

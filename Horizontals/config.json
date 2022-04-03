@@ -1,0 +1,197 @@
+{
+	"author":		"Arubinu42",
+	"version":		"v1.0.0",
+	"date":			"20/02/2022",
+	"x":			0.0,
+	"y":			0.0,
+	"width":		180,
+	"height":		126,
+	"font":			[ "Azonix.otf", 35 ],
+	"scale":		1.0,
+	"rotate":		0.0,
+	"opacity":		1.0,
+	"elements": [
+		{
+			"name":			"rank",
+			"type":			"image",
+			"file":			"{{Rank}}",
+			"x":			-60,
+			"y":			"(126 / 2) + 5px",
+			"align":		"center",
+			"valign":		"middle",
+			"scale":		2.5
+		},
+		{
+			"name":			"mmr_box",
+			"type":			"rectangle",
+			"x":			10,
+			"y":			10,
+			"width":		26,
+			"height":		26,
+			"rounding":		5,
+			"fill":			[ 0, 0, 0, 0.82 ],
+			"stroke":		false
+		},
+		{
+			"name":			"mmr_image",
+			"type":			"image",
+			"file":			"mmr.png",
+			"x":			23,
+			"y":			23,
+			"align":		"center",
+			"valign":		"middle",
+			"scale":		0.4
+		},
+		{
+			"name":			"mmr_box2",
+			"type":			"rectangle",
+			"x":			45,
+			"y":			10,
+			"width":		135,
+			"height":		26,
+			"rounding":		5,
+			"fill":			[ 0, 0, 0, 0.82 ],
+			"stroke":		false
+		},
+		{
+			"name":			"mmr",
+			"type":			"text",
+			"value":		"{{MMR}}",
+			"x":			175,
+			"y":			25,
+			"align":		"right",
+			"valign":		"middle",
+			"color":		[ 255, 255, 255 ],
+			"scale":		0.34
+		},
+		{
+			"name":			"win_box",
+			"type":			"rectangle",
+			"x":			10,
+			"y":			"10px + 30px",
+			"width":		26,
+			"height":		26,
+			"rounding":		5,
+			"fill":			[ 0, 0, 0, 0.82 ],
+			"stroke":		false
+		},
+		{
+			"name":			"win_image",
+			"type":			"image",
+			"file":			"win.png",
+			"x":			23,
+			"y":			"10px + (13px + 30px)",
+			"align":		"center",
+			"valign":		"middle",
+			"scale":		0.4
+		},
+		{
+			"name":			"win_box2",
+			"type":			"rectangle",
+			"x":			45,
+			"y":			"10px + 30px",
+			"width":		135,
+			"height":		26,
+			"rounding":		5,
+			"fill":			[ 0, 0, 0, 0.82 ],
+			"stroke":		false
+		},
+		{
+			"name":			"win",
+			"type":			"text",
+			"value":		"{{Win}}",
+			"x":			175,
+			"y":			"10px + (15px + 30px)",
+			"align":		"right",
+			"valign":		"middle",
+			"color":		[ 255, 255, 255 ],
+			"scale":		0.34
+		},
+		{
+			"name":			"loss_box",
+			"type":			"rectangle",
+			"x":			10,
+			"y":			"10px + (30px * 2)",
+			"width":		26,
+			"height":		26,
+			"rounding":		5,
+			"fill":			[ 0, 0, 0, 0.82 ],
+			"stroke":		false
+		},
+		{
+			"name":			"loss_image",
+			"type":			"image",
+			"file":			"loss.png",
+			"x":			23,
+			"y":			"10px + (13px + (30px * 2))",
+			"align":		"center",
+			"valign":		"middle",
+			"scale":		0.36
+		},
+		{
+			"name":			"loss_box2",
+			"type":			"rectangle",
+			"x":			45,
+			"y":			"10px + (30px * 2)",
+			"width":		135,
+			"height":		26,
+			"rounding":		5,
+			"fill":			[ 0, 0, 0, 0.82 ],
+			"stroke":		false
+		},
+		{
+			"name":			"loss",
+			"type":			"text",
+			"value":		"{{Loss}}",
+			"x":			175,
+			"y":			"25px + (30px * 2)",
+			"align":		"right",
+			"valign":		"middle",
+			"color":		[ 255, 255, 255 ],
+			"scale":		0.34
+		},
+		{
+			"name":			"streak_box",
+			"type":			"rectangle",
+			"x":			10,
+			"y":			"10px + (30px * 3)",
+			"width":		26,
+			"height":		26,
+			"rounding":		5,
+			"fill":			[ 0, 0, 0, 0.82 ],
+			"stroke":		false
+		},
+		{
+			"name":			"streak_image",
+			"type":			"image",
+			"file":			"streak.png",
+			"x":			23,
+			"y":			"10px + (13px + (30px * 3))",
+			"align":		"center",
+			"valign":		"middle",
+			"scale":		0.4
+		},
+		{
+			"name":			"streak_box2",
+			"type":			"rectangle",
+			"x":			45,
+			"y":			"10px + (30px * 3)",
+			"width":		135,
+			"height":		26,
+			"rounding":		5,
+			"fill":			[ 0, 0, 0, 0.82 ],
+			"stroke":		false
+		},
+		{
+			"name":			"streak",
+			"type":			"text",
+			"value":		"{{Streak}}",
+			"x":			175,
+			"y":			"10px + (15px + (30px * 3))",
+			"align":		"right",
+			"valign":		"middle",
+			"color":		[ 255, 255, 255 ],
+			"scale":		0.34
+		}
+	]
+}

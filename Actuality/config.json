@@ -1,0 +1,146 @@
+{
+	"author":		"Arubinu42",
+	"version":		"v1.0.0",
+	"date":			"29/07/2019",
+	"x":			0.0,
+	"y":			"100vh - 100%",
+	"width":		"100vw",
+	"height":		40,
+	"font":			[ "SoftCore.ttf", 35 ],
+	"scale":		1.0,
+	"rotate":		0.0,
+	"opacity":		1.0,
+	"elements": [
+		{
+			"name":			"box",
+			"type":			"rectangle",
+			"x":			0,
+			"y":			0,
+			"width":		"100%",
+			"height":		"100%",
+			"fill":			[ 0, 0, 0, 0.2 ],
+			"stroke":		false
+		},
+		{
+			"name":			"rank_image",
+			"type":			"image",
+			"file":			"{{Rank}}",
+			"x":			65,
+			"y":			20,
+			"align":		"left",
+			"valign":		"middle",
+			"scale":		0.8
+		},
+		{
+			"name":			"rank",
+			"type":			"text",
+			"value":		"{{Rank}}",
+			"x":			"65px + 50px",
+			"y":			21,
+			"align":		"left",
+			"valign":		"middle",
+			"color":		[ 255, 255, 255 ],
+			"scale":		0.5
+		},
+		{
+			"name":			"mmr",
+			"type":			"text",
+			"value":		"{{MMR}}",
+			"x":			"550px - 30px",
+			"y":			22,
+			"align":		"right",
+			"valign":		"middle",
+			"color":		[ 255, 255, 255 ],
+			"scale":		0.43
+		},
+		{
+			"name":			"mmr_image",
+			"type":			"image",
+			"file":			"crown.png",
+			"x":			550,
+			"y":			21,
+			"align":		"center",
+			"valign":		"middle",
+			"scale":		0.7
+		},
+		{
+			"name":			"mmrchange",
+			"type":			"text",
+			"value":		"{{MMRChange}}",
+			"sign":			"MMRChange",
+			"x":			"550px + 35px",
+			"y":			22,
+			"align":		"left",
+			"valign":		"middle",
+			"color":		[ 255, 255, 255 ],
+			"scale":		0.43
+		},
+		{
+			"name":			"streak_image",
+			"type":			"image",
+			"file":			"streak.png",
+			"x":			850,
+			"y":			21,
+			"align":		"center",
+			"valign":		"middle",
+			"scale":		0.7
+		},
+		{
+			"name":			"streak",
+			"type":			"text",
+			"value":		"{{Streak}}",
+			"sign":			"Streak",
+			"x":			"850px + 35px",
+			"y":			22,
+			"align":		"left",
+			"valign":		"middle",
+			"color":		[ 255, 255, 255 ],
+			"scale":		0.43
+		},
+		{
+			"name":			"win_image",
+			"type":			"image",
+			"file":			"arrow.png",
+			"x":			1100,
+			"y":			20,
+			"align":		"center",
+			"valign":		"middle",
+			"color":		[ 12, 250, 101 ],
+			"scale":		0.42
+		},
+		{
+			"name":			"win",
+			"type":			"text",
+			"value":		"{{Win}}",
+			"x":			"1100px + 30px",
+			"y":			22,
+			"align":		"left",
+			"valign":		"middle",
+			"color":		[ 12, 250, 101 ],
+			"scale":		0.43
+		},
+		{
+			"name":			"loss_image",
+			"type":			"image",
+			"file":			"arrow.png",
+			"x":			1350,
+			"y":			21,
+			"align":		"center",
+			"valign":		"middle",
+			"color":		[ 255, 50, 42 ],
+			"rotate":		180,
+			"scale":		0.42
+		},
+		{
+			"name":			"loss",
+			"type":			"text",
+			"value":		"{{Loss}}",
+			"x":			"1350px + 30px",
+			"y":			22,
+			"align":		"left",
+			"valign":		"middle",
+			"color":		[ 255, 50, 42 ],
+			"scale":		0.43
+		}
+	]
+}

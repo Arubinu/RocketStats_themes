@@ -1,0 +1,66 @@
+{
+	"author":		"Arubinu42",
+	"version":		"v1.0.0",
+	"date":			"20/02/2022",
+	"x":			0.0,
+	"y":			0.0,
+	"width":		500,
+	"height":		142,
+	"font":			[ "TypoGraphica.otf", 35 ],
+	"scale":		1.0,
+	"rotate":		0.0,
+	"opacity":		1.0,
+	"elements": [
+		{
+			"name":			"background",
+			"type":			"image",
+			"file":			"background.png",
+			"x":			0,
+			"y":			0,
+			"scale":		1.5
+		},
+		{
+			"name":			"rank",
+			"type":			"image",
+			"file":			"{{Rank}}",
+			"x":			59,
+			"y":			54,
+			"align":		"center",
+			"valign":		"middle",
+			"scale":		1.7
+		},
+		{
+			"name":			"gamemode",
+			"type":			"text",
+			"value":		"{{GameMode}}",
+			"x":			120,
+			"y":			30,
+			"align":		"left",
+			"valign":		"middle",
+			"color":		[ 231, 76, 60 ],
+			"scale":		0.32
+		},
+		{
+			"name":			"mmr",
+			"type":			"text",
+			"value":		"{{MMR}}",
+			"x":			120,
+			"y":			58,
+			"align":		"left",
+			"valign":		"middle",
+			"color":		[ 255, 255, 255 ],
+			"scale":		0.7
+		},
+		{
+			"name":			"rank_div",
+			"type":			"text",
+			"value":		"{{Rank}}    {{Div}}",
+			"x":			120,
+			"y":			81,
+			"align":		"left",
+			"valign":		"middle",
+			"color":		[ 255, 255, 255 ],
+			"scale":		0.25
+		}
+	]
+}

@@ -1,0 +1,168 @@
+{
+	"author":		"Arubinu42",
+	"version":		"v1.0.1",
+	"date":			"20/02/2022",
+	"x":			"100vw - (100% + 40 )",
+	"y":			"100vh - (100% + 140 )",
+	"width":		600,
+	"height":		125,
+	"font":			[ "Heavitas.ttf", 42 ],
+	"scale":		0.75,
+	"rotate":		0.0,
+	"opacity":		1.0,
+	"elements": [
+		{
+			"name":			"box",
+			"type":			"rectangle",
+			"x":			0,
+			"y":			0,
+			"width":		"100%",
+			"height":		"100%",
+			"rounding":		5,
+			"scale":		2,
+			"fill":			[ 70, 102, 230 ],
+			"stroke":		false
+		},
+		{
+			"name":			"horizontal",
+			"type":			"rectangle",
+			"x":			0,
+			"y":			35,
+			"width":		"100%",
+			"height":		28,
+			"fill":			[ 5, 17, 43 ],
+			"stroke":		false
+		},
+		{
+			"name":			"mode",
+			"type":			"text",
+			"value":		"{{GameMode}}",
+			"x":			10,
+			"y":			20,
+			"align":		"left",
+			"valign":		"middle",
+			"color":		[ 255, 255, 255 ],
+			"scale":		0.28
+		},
+		{
+			"name":			"rank_div",
+			"type":			"text",
+			"value":		"{{Rank}} {{Div}}",
+			"x":			"100% - 8px",
+			"y":			21,
+			"align":		"right",
+			"valign":		"middle",
+			"color":		[ 190, 190, 190 ],
+			"scale":		0.22
+		},
+		{
+			"name":			"rank_box",
+			"type":			"rectangle",
+			"x":			0,
+			"y":			"35px + 28px",
+			"width":		90,
+			"height":		"90px - 28px",
+			"fill":			[ 5, 17, 43 ],
+			"stroke":		false
+		},
+		{
+			"name":			"rank",
+			"type":			"image",
+			"file":			"{{Rank}}",
+			"x":			"90px / 2",
+			"y":			"35px + (90px / 2)",
+			"align":		"center",
+			"valign":		"middle",
+			"scale":		2
+		},
+		{
+			"name":			"mmr_name",
+			"type":			"text",
+			"value":		"MMR",
+			"x":			187,
+			"y":			51,
+			"align":		"center",
+			"valign":		"middle",
+			"color":		[ 255, 255, 255 ],
+			"scale":		0.22
+		},
+		{
+			"name":			"mmr",
+			"type":			"text",
+			"value":		"{{MMR}}",
+			"x":			187,
+			"y":			99,
+			"align":		"center",
+			"valign":		"middle",
+			"color":		[ 255, 255, 255 ],
+			"scale":		0.5
+		},
+		{
+			"name":			"win_name",
+			"type":			"text",
+			"value":		"Wins",
+			"x":			330,
+			"y":			51,
+			"align":		"center",
+			"valign":		"middle",
+			"color":		[ 255, 255, 255 ],
+			"scale":		0.22
+		},
+		{
+			"name":			"win",
+			"type":			"text",
+			"value":		"{{Win}}",
+			"x":			330,
+			"y":			99,
+			"align":		"center",
+			"valign":		"middle",
+			"color":		[ 255, 255, 255 ],
+			"scale":		0.5
+		},
+		{
+			"name":			"loss_name",
+			"type":			"text",
+			"value":		"Looses",
+			"x":			435,
+			"y":			51,
+			"align":		"center",
+			"valign":		"middle",
+			"color":		[ 255, 255, 255 ],
+			"scale":		0.22
+		},
+		{
+			"name":			"loss",
+			"type":			"text",
+			"value":		"{{Loss}}",
+			"x":			435,
+			"y":			99,
+			"align":		"center",
+			"valign":		"middle",
+			"color":		[ 255, 255, 255 ],
+			"scale":		0.5
+		},
+		{
+			"name":			"streak_name",
+			"type":			"text",
+			"value":		"Streak",
+			"x":			540,
+			"y":			51,
+			"align":		"center",
+			"valign":		"middle",
+			"color":		[ 255, 255, 255 ],
+			"scale":		0.22
+		},
+		{
+			"name":			"streak",
+			"type":			"text",
+			"value":		"{{Streak}}",
+			"sign":			"Streak",
+			"x":			540,
+			"y":			99,
+			"align":		"center",
+			"valign":		"middle",
+			"color":		[ 255, 255, 255 ],
+			"scale":		0.5
+		}
+	]
+}

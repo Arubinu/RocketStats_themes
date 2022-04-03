@@ -1,0 +1,48 @@
+{
+	"author":		"Arubinu42",
+	"version":		"v1.0.1",
+	"date":			"20/02/2022",
+	"x":			0.5,
+	"y":			0.0,
+	"width":		346,
+	"height":		145,
+	"font":			[ "Azonix.otf", 35 ],
+	"scale":		0.75,
+	"rotate":		0.0,
+	"opacity":		1.0,
+	"elements": [
+		{
+			"name":			"background",
+			"type":			"image",
+			"file":			"background.png",
+			"x":			0,
+			"y":			0,
+			"align":		"center",
+			"valign":		"top",
+			"scale":		2.65
+		},
+		{
+			"name":			"rank",
+			"type":			"image",
+			"file":			"{{Rank}}",
+			"x":			0,
+			"y":			53,
+			"align":		"center",
+			"valign":		"middle",
+			"opacity":		0.4,
+			"scale":		2.4
+		},
+		{
+			"name":			"mmr",
+			"type":			"text",
+			"value":		"{{MMR}} ({{MMRChange}})",
+			"sign":			"MMRChange",
+			"x":			0,
+			"y":			156,
+			"align":		"center",
+			"valign":		"middle",
+			"color":		[ 255, 255, 255 ],
+			"scale":		0.6
+		}
+	]
+}
