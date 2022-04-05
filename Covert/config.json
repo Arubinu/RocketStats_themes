@@ -121,7 +121,7 @@
 		{
 			"name":			"loss_name",
 			"type":			"text",
-			"value":		"Looses",
+			"value":		"Losses",
 			"x":			315,
 			"y":			35,
 			"align":		"center",
