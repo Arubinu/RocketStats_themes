@@ -1,0 +1,68 @@
+{
+	"author":		"Arubinu42",
+	"version":		"v1.0.0",
+	"date":			"05/04/2022",
+	"x":			"100vw - (100% + 5px)",
+	"y":			"100vh - (100% + 270px)",
+	"width":		269,
+	"height":		225,
+	"font":			[ "BigBlackBear.otf", 42 ],
+	"scale":		1.0,
+	"opacity":		1.0,
+	"elements": [
+		{
+			"name":			"background",
+			"type":			"image",
+			"file":			"background.png",
+			"x":			0,
+			"y":			0,
+			"scale":		1.5
+		},
+		{
+			"name":			"mmrchange",
+			"type":			"text",
+			"value":		"{{MMRChange}}",
+			"sign":			"MMRChange",
+			"x":			52,
+			"y":			59,
+			"align":		"center",
+			"valign":		"center",
+			"color":		[ 255, 255, 255 ],
+			"scale":		0.5
+		},
+		{
+			"name":			"streak",
+			"type":			"text",
+			"value":		"{{Streak}}",
+			"sign":			"Streak",
+			"x":			150,
+			"y":			59,
+			"align":		"center",
+			"valign":		"center",
+			"color":		[ 255, 255, 255 ],
+			"scale":		0.5
+		},
+		{
+			"name":			"win",
+			"type":			"text",
+			"value":		"{{Win}}",
+			"x":			55,
+			"y":			109,
+			"align":		"left",
+			"valign":		"center",
+			"color":		[ 255, 255, 255 ],
+			"scale":		0.42
+		},
+		{
+			"name":			"loss",
+			"type":			"text",
+			"value":		"{{Loss}}",
+			"x":			147,
+			"y":			109,
+			"align":		"right",
+			"valign":		"center",
+			"color":		[ 255, 255, 255 ],
+			"scale":		0.42
+		}
+	]
+}

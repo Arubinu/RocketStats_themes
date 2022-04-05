@@ -1,0 +1,44 @@
+{
+	"author":		"Arubinu42",
+	"version":		"v1.0.0",
+	"date":			"05/04/2022",
+	"x":			"100vw - (100% + 12px)",
+	"y":			"100vh - (100% + 12px)",
+	"width":		300,
+	"height":		320,
+	"font":			[ "LongHairedFreakyPeople.otf", 42 ],
+	"scale":		1.0,
+	"opacity":		1.0,
+	"elements": [
+		{
+			"name":			"background",
+			"type":			"image",
+			"file":			"background.png",
+			"x":			0,
+			"y":			0,
+			"scale":		0.9
+		},
+		{
+			"name":			"win",
+			"type":			"text",
+			"value":		"{{Win}}",
+			"x":			111,
+			"y":			44,
+			"align":		"center",
+			"valign":		"center",
+			"color":		[ 150, 255, 150 ],
+			"scale":		0.45
+		},
+		{
+			"name":			"loss",
+			"type":			"text",
+			"value":		"{{Loss}}",
+			"x":			60,
+			"y":			95,
+			"align":		"center",
+			"valign":		"center",
+			"color":		[ 255, 150, 150 ],
+			"scale":		0.45
+		}
+	]
+}
