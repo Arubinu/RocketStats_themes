@@ -1,0 +1,86 @@
+{
+	"author":		"Arubinu42",
+	"version":		"v1.0.0",
+	"date":			"07/04/2022",
+	"x":			"100vw - (100% + 298px)",
+	"y":			"100vh - (100% + 35px)",
+	"width":		132,
+	"height":		192,
+	"font":			[ "MADETommy.otf", 30 ],
+	"scale":		1.0,
+	"opacity":		1.0,
+	"elements": [
+		{
+			"name":			"win_frame",
+			"type":			"image",
+			"file":			"frame.png",
+			"x":			0,
+			"y":			12
+		},
+		{
+			"name":			"win_image",
+			"type":			"image",
+			"file":			"win.png",
+			"x":			71,
+			"y":			0
+		},
+		{
+			"name":			"win",
+			"type":			"text",
+			"value":		"{{Win}}",
+			"x":			41,
+			"y":			9,
+			"align":		"center",
+			"valign":		"center",
+			"scale":		0.7
+		},
+		{
+			"name":			"loss_frame",
+			"type":			"image",
+			"file":			"frame.png",
+			"x":			10,
+			"y":			"60px + 12px"
+		},
+		{
+			"name":			"loss_image",
+			"type":			"image",
+			"file":			"loss.png",
+			"x":			"10px + 71px",
+			"y":			60
+		},
+		{
+			"name":			"loss",
+			"type":			"text",
+			"value":		"{{Loss}}",
+			"x":			"10px + 41px",
+			"y":			"60px + 9px",
+			"align":		"center",
+			"valign":		"center",
+			"scale":		0.7
+		},
+		{
+			"name":			"streak_frame",
+			"type":			"image",
+			"file":			"frame.png",
+			"x":			35,
+			"y":			"120px + 12px"
+		},
+		{
+			"name":			"streak_image",
+			"type":			"image",
+			"file":			"streak.png",
+			"x":			"35px + 71px",
+			"y":			120
+		},
+		{
+			"name":			"streak",
+			"type":			"text",
+			"value":		"{{Streak}}",
+			"x":			"35px + 41px",
+			"y":			"120px + 9px",
+			"align":		"center",
+			"valign":		"center",
+			"scale":		0.7
+		}
+	]
+}
