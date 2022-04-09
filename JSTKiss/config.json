@@ -76,6 +76,7 @@
 			"name":			"streak",
 			"type":			"text",
 			"value":		"{{Streak}}",
+			"sign":			"Streak",
 			"x":			"35px + 41px",
 			"y":			"120px + 9px",
 			"align":		"center",
