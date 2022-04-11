@@ -1,6 +1,6 @@
 {
 	"author":		"Arubinu42",
-	"version":		"v1.0.0",
+	"version":		"v1.1.0",
 	"date":			"11/04/2022",
 	"x":			"100vw - (100% + 298px)",
 	"y":			"100vh - (100% + 75px)",
@@ -96,6 +96,17 @@
 			"valign":		"middle",
 			"color":		[ 255, 47, 21 ],
 			"scale":		0.5
+		},
+		{
+			"name":			"rank_boost",
+			"type":			"image",
+			"file":			"{{Rank}}",
+			"x":			"100% + 146px",
+			"y":			"50% - 5px",
+			"align":		"center",
+			"valign":		"middle",
+			"opacity":		0.25,
+			"scale":		4
 		}
 	]
 }
