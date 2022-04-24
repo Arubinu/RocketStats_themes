@@ -1,0 +1,153 @@
+{
+	"author":		"Lurrgar",
+	"version":		"v1.1.0",
+	"date":			"23/04/2022",
+	"x":			"100vw - (100% + 255px)",
+	"y":			"100vh - (100% + 50px)",
+	"width":		425,
+	"height":		272,
+	"font":			[ "ReglisseFill.otf", 60 ],
+	"fonts":		[ [ "OrionEsperanto.ttf", 30 ] ],
+	"scale":		0.91,
+	"rotate":		0.0,
+	"opacity":		1.0,
+	"elements": [
+		{
+			"name":			"contour",
+			"type":			"image",
+			"file":			"contour.png",
+			"x":			0,
+			"y":			0,
+			"align":		"left",
+			"valign":		"top",
+			"scale":		2
+		},
+		{
+			"name":			"mmrcumulchange_text",
+			"type":			"text",
+			"value":		"MMR :",
+			"x":			220,
+			"y":			50,
+			"align":		"right",
+			"valign":		"middle",
+			"color":		[ 255, 255, 255 ],
+			"scale":		0.76
+		},
+		{
+			"name":			"mmrcumulchange",
+			"type":			"text",
+			"value":		"{{MMRCumulChange}}",
+			"sign":			"MMRCumulChange",
+			"x":			335,
+			"y":			50,
+			"align":		"right",
+			"valign":		"middle",
+			"color":		[ 255, 255, 255 ],
+			"scale":		0.7
+		},
+		{
+			"name":			"streak_text",
+			"type":			"text",
+			"value":		"STREAK",
+			"sign":			"streak",
+			"x":			220,
+			"y":			"50px + 70px",
+			"align":		"right",
+			"valign":		"middle",
+			"color":		[ 255, 255, 255 ],
+			"scale":		0.58
+		},
+		{
+			"name":			"streak",
+			"type":			"text",
+			"value":		"{{Streak}}",
+			"chameleon":	"Streak",
+			"sign":			"Streak",
+			"x":			"335px - 10px",
+			"y":			"50px + 70px",
+			"align":		"right",
+			"valign":		"middle",
+			"color":		[ 0, 255, 0 ],
+			"scale":		0.7
+		},
+		{
+			"name":			"win_icon",
+			"type":			"image",
+			"file":			"icon.png",
+			"x":			90,
+			"y":			205,
+			"align":		"center",
+			"valign":		"middle",
+			"color":		[ 21, 255, 82 ],
+			"scale":		1.8
+		},
+		{
+			"name":			"win_text",
+			"type":			"text",
+			"font":			"OrionEsperanto",
+			"value":		"W",
+			"x":			"90px + 1px",
+			"y":			"205px + 5px",
+			"align":		"center",
+			"valign":		"middle",
+			"color":		[ 21, 255, 82 ],
+			"scale":		0.63
+		},
+		{
+			"name":			"win_letter",
+			"type":			"text",
+			"value":		"{{Win}}",
+			"x":			"90px + 75px",
+			"y":			"205px - 5px",
+			"align":		"center",
+			"valign":		"middle",
+			"color":		[ 21, 255, 82 ],
+			"scale":		0.75
+		},
+		{
+			"name":			"loss_icon",
+			"type":			"image",
+			"file":			"icon.png",
+			"x":			250,
+			"y":			205,
+			"align":		"center",
+			"valign":		"middle",
+			"color":		[ 255, 21, 82 ],
+			"scale":		1.8
+		},
+		{
+			"name":			"loss_letter",
+			"type":			"text",
+			"font":			"OrionEsperanto",
+			"value":		"L",
+			"x":			"250px + 1px",
+			"y":			"205px + 3px",
+			"align":		"center",
+			"valign":		"middle",
+			"color":		[ 255, 21, 82 ],
+			"scale":		0.63
+		},
+		{
+			"name":			"loss_text",
+			"type":			"text",
+			"value":		"{{Loss}}",
+			"x":			"250px + 75px",
+			"y":			"205px - 5px",
+			"align":		"center",
+			"valign":		"middle",
+			"color":		[ 255, 21, 82 ],
+			"scale":		0.8
+		},
+		{
+			"name":			"rank_boost",
+			"type":			"image",
+			"file":			"{{Rank}}",
+			"x":			"100% + 100px",
+			"y":			"50% + 18px",
+			"align":		"center",
+			"valign":		"middle",
+			"opacity":		0.25,
+			"scale":		4
+		}
+	]
+}

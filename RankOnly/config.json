@@ -1,0 +1,35 @@
+{
+	"author":		"Arubinu42",
+	"version":		"v1.0.0",
+	"date":			"24/04/2022",
+	"x":			"100vw - (100% + 5px)",
+	"y":			"100vh - (100% + 290px)",
+	"width":		280,
+	"height":		60,
+	"font":			[ "OrionEsperanto.ttf", 30 ],
+	"scale":		1.0,
+	"opacity":		1.0,
+	"elements": [
+		{
+			"name":			"rank_image",
+			"type":			"image",
+			"file":			"{{Rank}}",
+			"x":			50,
+			"y":			0,
+			"align":		"right",
+			"valign":		"top",
+			"scale":		1
+		},
+		{
+			"name":			"rank_div",
+			"type":			"text",
+			"value":		"{{Rank}} {{Div}}",
+			"x":			50,
+			"y":			15,
+			"align":		"left",
+			"valign":		"top",
+			"color":		[ 255, 255, 255 ],
+			"scale":		0.4
+		}
+	]
+}
