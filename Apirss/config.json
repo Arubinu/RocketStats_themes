@@ -1,0 +1,110 @@
+{
+	"author":		"Apirss",
+	"version":		"v1.1.0",
+	"date":			"09/04/2022",
+	"x":			"100vw - (100% + 308px)",
+	"y":			"100vh - (100% + 86px)",
+	"width":		215,
+	"height":		184,
+	"font":			[ "MonumentExtended.otf", 35 ],
+	"scale":		0.91,
+	"rotate":		0.0,
+	"opacity":		1.0,
+	"elements": [
+		{
+			"name":			"title_image",
+			"type":			"image",
+			"file":			"title.png",
+			"x":			0,
+			"y":			0,
+			"align":		"left",
+			"valign":		"top",
+			"scale":		0.5
+		},
+		{
+			"name":			"title",
+			"type":			"text",
+			"value":		"Wins / Losses",
+			"x":			"50% + 4px",
+			"y":			26,
+			"align":		"center",
+			"valign":		"middle",
+			"scale":		0.24
+		},
+		{
+			"name":			"rank",
+			"type":			"image",
+			"file":			"{{Rank}}",
+			"x":			1,
+			"y":			3,
+			"align":		"center",
+			"valign":		"middle",
+			"opacity":		0.8,
+			"scale":		2
+		},
+		{
+			"name":			"win_item",
+			"type":			"image",
+			"file":			"item.png",
+			"x":			"100%",
+			"y":			90,
+			"align":		"right",
+			"valign":		"middle",
+			"color":		[ 21, 255, 82 ],
+			"scale":		0.5
+		},
+		{
+			"name":			"win_image",
+			"type":			"image",
+			"file":			"win.png",
+			"x":			"100% - 29px",
+			"y":			"90px + 2px",
+			"align":		"center",
+			"valign":		"middle",
+			"color":		[ 21, 255, 82 ],
+			"scale":		0.5
+		},
+		{
+			"name":			"win",
+			"type":			"text",
+			"value":		"{{Win}}",
+			"x":			"100% - 60px",
+			"y":			"90px + 2px",
+			"align":		"right",
+			"valign":		"middle",
+			"scale":		0.7
+		},
+		{
+			"name":			"loss_item",
+			"type":			"image",
+			"file":			"item.png",
+			"x":			"100%",
+			"y":			155,
+			"align":		"right",
+			"valign":		"middle",
+			"color":		[ 255, 47, 21 ],
+			"scale":		0.5
+		},
+		{
+			"name":			"loss_image",
+			"type":			"image",
+			"file":			"loss.png",
+			"x":			"100% - 29px",
+			"y":			"155px",
+			"align":		"center",
+			"valign":		"middle",
+			"color":		[ 255, 47, 21 ],
+			"scale":		0.5
+		},
+		{
+			"name":			"loss",
+			"type":			"text",
+			"value":		"{{Loss}}",
+			"x":			"100% - 60px",
+			"y":			"155px + 2px",
+			"align":		"right",
+			"valign":		"middle",
+			"scale":		0.7
+		}
+	]
+}

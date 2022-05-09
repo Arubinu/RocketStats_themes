@@ -1,0 +1,317 @@
+{
+	"author":		"@Arubinu42",
+	"version":		"v1.0.0",
+	"date":			"14/04/2022",
+	"x":			"50vw",
+	"y":			"100vh - (100% + 30px)",
+	"width":		"9 * 60px",
+	"height":		42,
+	"font":			[ "SoftCore.ttf", 25 ],
+	"scale":		1.0,
+	"opacity":		1.0,
+	"elements": [
+		{
+			"name":			"box",
+			"type":			"rectangle",
+			"x":			"-50%",
+			"y":			0,
+			"width":		"100%",
+			"height":		"100%",
+			"fill":			[ 0, 0, 0, 0.5 ]
+		},
+		{
+			"name":			"cap1",
+			"type":			"rectangle",
+			"x":			"-50% + (0 * 60px)",
+			"y":			0,
+			"width":		60,
+			"height":		"25%",
+			"fill":			[ 133, 136, 136 ]
+		},
+		{
+			"name":			"mmr_shadow",
+			"type":			"text",
+			"value":		"{{MMR}}",
+			"x":			"-50% + (0 * 60px) + (60px / 2) + 1px",
+			"y":			"25% + 38% + 1px",
+			"align":		"center",
+			"valign":		"middle",
+			"color":		[ 0, 0, 0 ],
+			"scale":		0.5
+		},
+		{
+			"name":			"mmr",
+			"type":			"text",
+			"value":		"{{MMR}}",
+			"x":			"-50% + (0 * 60px) + (60px / 2)",
+			"y":			"25% + 38%",
+			"align":		"center",
+			"valign":		"middle",
+			"color":		[ 255, 255, 255 ],
+			"scale":		0.5
+		},
+		{
+			"name":			"cap2",
+			"type":			"rectangle",
+			"x":			"-50% + (1 * 60px)",
+			"y":			0,
+			"width":		60,
+			"height":		"25%",
+			"fill":			[ 201, 120, 29 ]
+		},
+		{
+			"name":			"cap2+",
+			"type":			"rectangle",
+			"x":			"-50% + (1 * 60px)",
+			"y":			"25%",
+			"width":		60,
+			"height":		"75%",
+			"fill":			[ 181, 100, 19 ]
+		},
+		{
+			"name":			"games_shadow",
+			"type":			"text",
+			"value":		"{{Games}}",
+			"x":			"-50% + (1 * 60px) + (60px / 2) + 1px",
+			"y":			"25% + 38% + 1px",
+			"align":		"center",
+			"valign":		"middle",
+			"color":		[ 0, 0, 0 ],
+			"scale":		0.5
+		},
+		{
+			"name":			"games",
+			"type":			"text",
+			"value":		"{{Games}}",
+			"x":			"-50% + (1 * 60px) + (60px / 2)",
+			"y":			"25% + 38%",
+			"align":		"center",
+			"valign":		"middle",
+			"color":		[ 255, 255, 255 ],
+			"scale":		0.5
+		},
+		{
+			"name":			"cap3",
+			"type":			"rectangle",
+			"x":			"-50% + (2 * 60px)",
+			"y":			0,
+			"width":		60,
+			"height":		"25%",
+			"fill":			[ 124, 97, 208 ]
+		},
+		{
+			"name":			"rank_shadow",
+			"type":			"text",
+			"value":		"{{RankNumber}}",
+			"x":			"-50% + (2 * 60px) + (60px / 2) + 1px",
+			"y":			"25% + 38% + 1px",
+			"align":		"center",
+			"valign":		"middle",
+			"color":		[ 0, 0, 0 ],
+			"scale":		0.5
+		},
+		{
+			"name":			"rank",
+			"type":			"text",
+			"value":		"{{RankNumber}}",
+			"x":			"-50% + (2 * 60px) + (60px / 2)",
+			"y":			"25% + 38%",
+			"align":		"center",
+			"valign":		"middle",
+			"color":		[ 255, 255, 255 ],
+			"scale":		0.5
+		},
+		{
+			"name":			"cap4",
+			"type":			"rectangle",
+			"x":			"-50% + (3 * 60px)",
+			"y":			0,
+			"width":		60,
+			"height":		"25%",
+			"fill":			[ 154, 197, 79 ]
+		},
+		{
+			"name":			"div_shadow",
+			"type":			"text",
+			"value":		"{{DivNumber}}",
+			"x":			"-50% + (3 * 60px) + (60px / 2) + 1px",
+			"y":			"25% + 38% + 1px",
+			"align":		"center",
+			"valign":		"middle",
+			"color":		[ 0, 0, 0 ],
+			"scale":		0.5
+		},
+		{
+			"name":			"div",
+			"type":			"text",
+			"value":		"{{DivNumber}}",
+			"x":			"-50% + (3 * 60px) + (60px / 2)",
+			"y":			"25% + 38%",
+			"align":		"center",
+			"valign":		"middle",
+			"color":		[ 255, 255, 255 ],
+			"scale":		0.5
+		},
+		{
+			"name":			"cap5",
+			"type":			"rectangle",
+			"x":			"-50% + (4 * 60px)",
+			"y":			0,
+			"width":		60,
+			"height":		"25%",
+			"fill":			[ 222, 30, 45 ]
+		},
+		{
+			"name":			"mmrcc_shadow",
+			"type":			"text",
+			"value":		"{{MMRCumulChange}}",
+			"sign":			"MMRCumulChange",
+			"x":			"-50% + (4 * 60px) + (60px / 2) + 1px",
+			"y":			"25% + 38% + 1px",
+			"align":		"center",
+			"valign":		"middle",
+			"color":		[ 0, 0, 0 ],
+			"scale":		0.5
+		},
+		{
+			"name":			"mmrcc",
+			"type":			"text",
+			"value":		"{{MMRCumulChange}}",
+			"sign":			"MMRCumulChange",
+			"x":			"-50% + (4 * 60px) + (60px / 2)",
+			"y":			"25% + 38%",
+			"align":		"center",
+			"valign":		"middle",
+			"color":		[ 255, 255, 255 ],
+			"scale":		0.5
+		},
+		{
+			"name":			"cap6",
+			"type":			"rectangle",
+			"x":			"-50% + (5 * 60px)",
+			"y":			0,
+			"width":		60,
+			"height":		"25%",
+			"fill":			[ 204, 179, 0 ]
+		},
+		{
+			"name":			"win_shadow",
+			"type":			"text",
+			"value":		"{{Win}}",
+			"x":			"-50% + (5 * 60px) + (60px / 2) + 1px",
+			"y":			"25% + 38% + 1px",
+			"align":		"center",
+			"valign":		"middle",
+			"color":		[ 0, 0, 0 ],
+			"scale":		0.5
+		},
+		{
+			"name":			"win",
+			"type":			"text",
+			"value":		"{{Win}}",
+			"x":			"-50% + (5 * 60px) + (60px / 2)",
+			"y":			"25% + 38%",
+			"align":		"center",
+			"valign":		"middle",
+			"color":		[ 255, 255, 255 ],
+			"scale":		0.5
+		},
+		{
+			"name":			"cap7",
+			"type":			"rectangle",
+			"x":			"-50% + (6 * 60px)",
+			"y":			0,
+			"width":		60,
+			"height":		"25%",
+			"fill":			[ 30, 169, 180 ]
+		},
+		{
+			"name":			"loss_shadow",
+			"type":			"text",
+			"value":		"{{Loss}}",
+			"x":			"-50% + (6 * 60px) + (60px / 2) + 1px",
+			"y":			"25% + 38% + 1px",
+			"align":		"center",
+			"valign":		"middle",
+			"color":		[ 0, 0, 0 ],
+			"scale":		0.5
+		},
+		{
+			"name":			"loss",
+			"type":			"text",
+			"value":		"{{Loss}}",
+			"x":			"-50% + (6 * 60px) + (60px / 2)",
+			"y":			"25% + 38%",
+			"align":		"center",
+			"valign":		"middle",
+			"color":		[ 255, 255, 255 ],
+			"scale":		0.5
+		},
+		{
+			"name":			"cap8",
+			"type":			"rectangle",
+			"x":			"-50% + (7 * 60px)",
+			"y":			0,
+			"width":		60,
+			"height":		"25%",
+			"fill":			[ 159, 48, 41 ]
+		},
+		{
+			"name":			"streak_shadow",
+			"type":			"text",
+			"value":		"{{Streak}}",
+			"sign":			"Streak",
+			"x":			"-50% + (7 * 60px) + (60px / 2) + 1px",
+			"y":			"25% + 38% + 1px",
+			"align":		"center",
+			"valign":		"middle",
+			"color":		[ 0, 0, 0 ],
+			"scale":		0.5
+		},
+		{
+			"name":			"streak",
+			"type":			"text",
+			"value":		"{{Streak}}",
+			"sign":			"Streak",
+			"x":			"-50% + (7 * 60px) + (60px / 2)",
+			"y":			"25% + 38%",
+			"align":		"center",
+			"valign":		"middle",
+			"color":		[ 255, 255, 255 ],
+			"scale":		0.5
+		},
+		{
+			"name":			"cap9",
+			"type":			"rectangle",
+			"x":			"-50% + (8 * 60px)",
+			"y":			0,
+			"width":		60,
+			"height":		"25%",
+			"fill":			[ 99, 217, 126 ]
+		},
+		{
+			"name":			"winratio_shadow",
+			"type":			"text",
+			"value":		"{{WinRatio}}",
+			"sign":			"WinRatio",
+			"x":			"-50% + (8 * 60px) + (60px / 2) + 1px",
+			"y":			"25% + 38% + 1px",
+			"align":		"center",
+			"valign":		"middle",
+			"color":		[ 0, 0, 0 ],
+			"scale":		0.5
+		},
+		{
+			"name":			"winratio",
+			"type":			"text",
+			"value":		"{{WinRatio}}",
+			"sign":			"WinRatio",
+			"x":			"-50% + (8 * 60px) + (60px / 2)",
+			"y":			"25% + 38%",
+			"align":		"center",
+			"valign":		"middle",
+			"color":		[ 255, 255, 255 ],
+			"scale":		0.5
+		}
+	]
+}
