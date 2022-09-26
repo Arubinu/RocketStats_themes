@@ -1,0 +1,131 @@
+{
+    "author": "emilnymann",
+    "version": "v1.1.0",
+    "date": "09/26/2022",
+    "x": 0.757,
+	"y": 0.878,
+	"width": 650,
+	"height": 40,
+	"font": ["Bourgeois Medium Italic.ttf", 24],
+	"scale": 1.0,
+	"opacity": 1.0,
+	"elements": [
+        {
+            "name": "gamemoderank",
+            "type": "text",
+            "value": "{{GameMode}}: {{Rank}} {{Div}}",
+            "x": 460,
+            "y": -5,
+            "align": "right",
+            "valign": "bottom",
+            "color": [255, 255, 255, 1],
+            "scale": 0.4
+        },
+
+        {
+            "name":			"background",
+            "type":			"rectangle",
+            "x":			"50",
+            "y":			"0",
+            "width":		"420",
+            "height":	    "100%",
+            "rounding":		0,
+            "fill":			[ 0, 0, 0, 0.5 ],
+            "stroke":		false
+        },
+        {
+            "name":			"rank",
+            "type":			"image",
+            "file":			"{{Rank}}",
+            "x":			0,
+            "y":			-5,
+            "rotate":		0,
+            "scale":		1,
+            "opacity":      1
+        },
+
+        {
+            "name":			"rating",
+            "type":			"image",
+            "file":			"rating.png",
+            "x":			55,
+            "y":			2.5,
+            "rotate":		0,
+            "scale":		1.5
+        },
+        {
+            "name": "mmr",
+            "type": "text",
+            "value": "{{MMR}} ({{MMRCumulChange}})",
+            "x": 95,
+            "y": 20,
+            "align": "left",
+            "valign": "middle",
+            "color": [255, 255, 255, 1],
+            "scale": 0.5
+        },
+
+        {
+            "name":			"up",
+            "type":			"image",
+            "file":			"up.png",
+            "x":			200,
+            "y":			2.5,
+            "rotate":		0,
+            "scale":		1.5
+        },
+        {
+            "name": "wins",
+            "type": "text",
+            "value": "{{Win}}",
+            "x": 240,
+            "y": 20,
+            "align": "left",
+            "valign": "middle",
+            "color": [255, 255, 255, 1],
+            "scale": 0.5
+        },
+
+        {
+            "name":			"down",
+            "type":			"image",
+            "file":			"down.png",
+            "x":			280,
+            "y":			2.5,
+            "rotate":		0,
+            "scale":		1.5
+        },
+        {
+            "name": "losses",
+            "type": "text",
+            "value": "{{Loss}}",
+            "x": 320,
+            "y": 20,
+            "align": "left",
+            "valign": "middle",
+            "color": [255, 255, 255, 1],
+            "scale": 0.5
+        },
+
+        {
+            "name":			"rocket",
+            "type":			"image",
+            "file":			"rocket.png",
+            "x":			380,
+            "y":			2.5,
+            "rotate":		0,
+            "scale":		1.5
+        },
+        {
+            "name": "streak",
+            "type": "text",
+            "value": "{{Streak}}",
+            "x": 420,
+            "y": 20,
+            "align": "left",
+            "valign": "middle",
+            "color": [255, 255, 255, 1],
+            "scale": 0.5
+        }
+    ]
+}
