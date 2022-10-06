@@ -1,0 +1,106 @@
+{
+	"author":		"@Lyliiya & @NuSa_yt",
+	"version":		"v1.0.1",
+	"date":			"25/06/2019",
+	"x":			0.7,
+	"y":			0.575,
+	"width":		175,
+	"height":		"(6 * 20px) + 35px",
+	"scale":		1.0,
+	"opacity":		1.0,
+	"elements": [
+		{
+			"name":			"box",
+			"type":			"rectangle",
+			"x":			0,
+			"y":			0,
+			"width":		"100%",
+			"height":		"100%",
+			"rounding":		5,
+			"scale":		2,
+			"fill":			[ 0, 0, 0, 0.5 ],
+			"stroke":		[ 200, 200, 200, 0.5 ]
+		},
+		{
+			"name":			"mode",
+			"type":			"text",
+			"value":		"{{GameMode}}",
+			"x":			10,
+			"y":			"(0 * 20px) + 10px",
+			"align":		"left",
+			"valign":		"top",
+			"color":		[ 255, 255, 255 ],
+			"scale":		0.6
+		},
+		{
+			"name":			"rank_div",
+			"type":			"text",
+			"value":		"{{Rank}} {{Div}}",
+			"x":			10,
+			"y":			"(1 * 20px) + 10px",
+			"align":		"left",
+			"valign":		"top",
+			"color":		[ 180, 180, 180 ],
+			"scale":		0.6
+		},
+		{
+			"name":			"mmr",
+			"type":			"text",
+			"value":		"MMR : {{MMR}}",
+			"x":			10,
+			"y":			"(2 * 20px) + 10px",
+			"align":		"left",
+			"valign":		"top",
+			"color":		[ 255, 255, 255 ],
+			"scale":		0.6
+		},
+		{
+			"name":			"mmrchange",
+			"type":			"text",
+			"value":		"MMRChange : {{MMRCumulChange}}",
+			"chameleon":	"MMRCumulChange",
+			"sign":			"MMRCumulChange",
+			"x":			10,
+			"y":			"(3 * 20px) + 10px",
+			"align":		"left",
+			"valign":		"top",
+			"color":		[ 0, 255, 0 ],
+			"scale":		0.6
+		},
+		{
+			"name":			"win",
+			"type":			"text",
+			"value":		"Win : {{Win}}",
+			"x":			10,
+			"y":			"(4 * 20px) + 10px",
+			"align":		"left",
+			"valign":		"top",
+			"color":		[ 0, 255, 0 ],
+			"scale":		0.6
+		},
+		{
+			"name":			"loss",
+			"type":			"text",
+			"value":		"Loss : {{Loss}}",
+			"x":			10,
+			"y":			"(5 * 20px) + 10px",
+			"align":		"left",
+			"valign":		"top",
+			"color":		[ 255, 0, 0 ],
+			"scale":		0.6
+		},
+		{
+			"name":			"streak",
+			"type":			"text",
+			"value":		"Streak : {{Streak}}",
+			"chameleon":	"Streak",
+			"sign":			"Streak",
+			"x":			10,
+			"y":			"(6 * 20px) + 10px",
+			"align":		"left",
+			"valign":		"top",
+			"color":		[ 0, 255, 0 ],
+			"scale":		0.6
+		}
+	]
+}

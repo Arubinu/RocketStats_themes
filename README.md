@@ -1,58 +1,93 @@
 # RocketStats Themes
-Groups additional themes for the RocketStats plugin
 
-# Screenshots
+Themes for the [RocketStats](https://github.com/Lyliya/RocketStats) plugin for [BakkesMod](https://www.bakkesmod.com/)
 
-## Actuality
-![Actuality](/Actuality/screenshot.png)
+## Screenshots
 
-## Apirss vs Stumbulu
-![Apirss vs Stumbulu](/Apirss%20vs%20Stumbulu/screenshot.png)
+### Actuality
 
-## Apirss
-![Apirss](/Apirss/screenshot.png)
+![Actuality](./Actuality/screenshot.png)
 
-## AzarWutwut
-![AzarWutwut](/AzarWutwut/screenshot.png)
+### Apirss vs Stumbulu
 
-## Baguette
-![Baguette](/Baguette/screenshot.png)
+![Apirss vs Stumbulu](./Apirss%20vs%20Stumbulu/screenshot.png)
 
-## ColorChallenger
-![ColorChallenger](/ColorChallenger/screenshot.png)
+### Apirss
 
-## Covert
-![Covert](/Covert/screenshot.png)
+![Apirss](./Apirss/screenshot.png)
 
-## CreationTwo
-![CreationTwo](/CreationTwo/screenshot.png)
+### Arubinu42
 
-## Flatter
-![Flatter](/Flatter/screenshot.png)
+![Arubinu42](./Arubinu42/screenshot.png)
 
-## FroZ_RT
-![FroZ_RT](/FroZ_RT/screenshot.png)
+### AzarWutwut
 
-## Horizontals
-![Horizontals](/Horizontals/screenshot.png)
+![AzarWutwut](./AzarWutwut/screenshot.png)
 
-## JSTKiss
-![JSTKiss](/JSTKiss/screenshot.png)
+### Baguette
 
-## Lurrgar
-![Lurrgar](/Lurrgar/screenshot.png)
+![Baguette](./Baguette/screenshot.png)
 
-## Marker
-![Marker](/Marker/screenshot.png)
+### Circle
 
-## Notis
-![Notis](/Notis/screenshot.png)
+![Circle](./Circle/screenshot.png)
 
-## RankOnly
-![RankOnly](/RankOnly/screenshot.png)
+### ColorChallenger
 
-## VeksonTV
-![VeksonTV](/VeksonTV/screenshot.png)
+![ColorChallenger](./ColorChallenger/screenshot.png)
 
-## dede3RUN
-![dede3RUN](/dede3RUN/screenshot.png)
+### Covert
+
+![Covert](./Covert/screenshot.png)
+
+### CreationTwo
+
+![CreationTwo](./CreationTwo/screenshot.png)
+
+### Default
+
+![Default](./Default/screenshot.png)
+
+### Flatter
+
+![Flatter](./Flatter/screenshot.png)
+
+### FroZ_RT
+
+![FroZ_RT](./FroZ_RT/screenshot.png)
+
+### Horizontals
+
+![Horizontals](./Horizontals/screenshot.png)
+
+### JSTKiss
+
+![JSTKiss](./JSTKiss/screenshot.png)
+
+### Lurrgar
+
+![Lurrgar](./Lurrgar/screenshot.png)
+
+### Marker
+
+![Marker](./Marker/screenshot.png)
+
+### Notis
+
+![Notis](./Notis/screenshot.png)
+
+### RankOnly
+
+![RankOnly](./RankOnly/screenshot.png)
+
+### Redesigned
+
+![Redesigned](./Redesigned/screenshot.png)
+
+### VeksonTV
+
+![VeksonTV](./VeksonTV/screenshot.png)
+
+### dede3RUN
+
+![dede3RUN](./dede3RUN/screenshot.png)
