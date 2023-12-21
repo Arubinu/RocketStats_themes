@@ -1,0 +1,107 @@
+{
+	"author":		"3lacksky",
+	"version":		"v1.0",
+	"date":			"21/21/2023",
+	"fonts":		[[ "Numbers.ttf", 25 ] , [ "Letters.ttf" , 12 ]],
+	"scale":		1.0,
+	"opacity":		0.5,
+	"elements": [
+		{
+			"name":			"MMR",
+			"type":			"text",
+			"value":		"MMR",
+			"font":			"Letters",
+			"x":			25,
+			"y":			9,
+			"align":		"left",
+			"valign":		"middle",
+			"color":		[ 255, 255, 255 ],
+			"scale":		0.5
+		},
+		{
+			"name":			"MMR",
+			"type":			"text",
+			"value":		"{{MMRCumulChange}}",
+			"font":			"Numbers",
+			"x":			25,
+			"y":			25,
+			"align":		"left",
+			"valign":		"middle",
+			"color":		[ 255, 255, 255 ],
+			"scale":		0.5
+		},
+		{
+			"name":			"Wins",
+			"type":			"text",
+			"value":		"Wins",
+			"font":			"Letters",
+			"x":			311,
+			"y":			9,
+			"align":		"right",
+			"valign":		"middle",
+			"color":		[ 255, 255, 255 ],
+			"scale":		0.5
+		},
+		{
+			"name":			"Wins",
+			"type":			"text",
+			"value":		"{{Win}}",
+			"font":			"Numbers",
+			"x":			309,
+			"y":			25,
+			"align":		"right",
+			"valign":		"middle",
+			"color":		[ 0, 255, 0 ],
+			"scale":		0.5
+		},
+		{
+			"name":			"Loss",
+			"type":			"text",
+			"value":		"Loss",
+			"font":			"Letters",
+			"x":			302,
+			"y":			117,
+			"align":		"right",
+			"valign":		"middle",
+			"color":		[ 255, 255, 255 ],
+			"scale":		0.5
+		},
+		{
+			"name":			"Loss",
+			"type":			"text",
+			"value":		"{{Loss}}",
+			"font":			"Numbers",
+			"x":			303,
+			"y":			98,
+			"align":		"right",
+			"valign":		"middle",
+			"color":		[ 255, 0, 0 ],
+			"scale":		0.5
+		},
+		{
+			"name":			"Streak",
+			"type":			"text",
+			"value":		"Streak",
+			"font":			"Letters",
+			"x":			32,
+			"y":			117,
+			"align":		"left",
+			"valign":		"middle",
+			"color":		[ 255, 255, 255 ],
+			"scale":		0.5
+		},
+		{
+			"name":			"Streak",
+			"type":			"text",
+			"value":		"{{Streak}}",
+			"font":			"Numbers",
+			"sign":			"Streak",
+			"x":			31,
+			"y":			98,
+			"align":		"left",
+			"valign":		"middle",
+			"color":		[ 255, 255, 255 ],
+			"scale":		0.5
+		}
+	]
+}
