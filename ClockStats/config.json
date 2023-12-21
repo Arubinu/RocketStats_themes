@@ -96,6 +96,7 @@
 			"value":		"{{Streak}}",
 			"font":			"Numbers",
 			"sign":			"Streak",
+			"chameleon":		"Streak",
 			"x":			31,
 			"y":			98,
 			"align":		"left",
