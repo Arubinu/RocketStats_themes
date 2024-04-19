@@ -1,6 +1,6 @@
 # JAYRAW
 
-![JAYRAW](/screenshot.png)
+![JAYRAW](/JAYRAW/screenshot.png)
 
 ## Français
 
