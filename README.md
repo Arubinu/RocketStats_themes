@@ -6,11 +6,11 @@ Groups additional themes for the RocketStats plugin
 ## Actuality
 ![Actuality](/Actuality/screenshot.png)
 
-## Apirss vs Stumbulu
-![Apirss vs Stumbulu](/Apirss%20vs%20Stumbulu/screenshot.png)
-
 ## Apirss
 ![Apirss](/Apirss/screenshot.png)
+
+## Apirss vs Stumbulu
+![Apirss vs Stumbulu](/Apirss%20vs%20Stumbulu/screenshot.png)
 
 ## AzarWutwut
 ![AzarWutwut](/AzarWutwut/screenshot.png)
@@ -27,6 +27,9 @@ Groups additional themes for the RocketStats plugin
 ## CreationTwo
 ![CreationTwo](/CreationTwo/screenshot.png)
 
+## dede3RUN
+![dede3RUN](/dede3RUN/screenshot.png)
+
 ## Flatter
 ![Flatter](/Flatter/screenshot.png)
 
@@ -35,6 +38,9 @@ Groups additional themes for the RocketStats plugin
 
 ## Horizontals
 ![Horizontals](/Horizontals/screenshot.png)
+
+## JAYRAW-RLSTO
+![JAYRAW-RLSTO](/JAYRAW-RLSTO/screenshot.png)
 
 ## JSTKiss
 ![JSTKiss](/JSTKiss/screenshot.png)
@@ -53,6 +59,3 @@ Groups additional themes for the RocketStats plugin
 
 ## VeksonTV
 ![VeksonTV](/VeksonTV/screenshot.png)
-
-## dede3RUN
-![dede3RUN](/dede3RUN/screenshot.png)
