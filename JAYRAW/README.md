@@ -1,5 +1,7 @@
 # JAYRAW
 
+![JAYRAW](/screenshot.png)
+
 ## Français
 
 Cet overlay est conçue pour s'adapter parfaitement à la jauge de boost, vous y retrouverez les stats:

@@ -39,8 +39,8 @@ Groups additional themes for the RocketStats plugin
 ## Horizontals
 ![Horizontals](/Horizontals/screenshot.png)
 
-## JAYRAW-RLSTO
-![JAYRAW-RLSTO](/JAYRAW-RLSTO/screenshot.png)
+## JAYRAW
+![JAYRAW](/JAYRAW/screenshot.png)
 
 ## JSTKiss
 ![JSTKiss](/JSTKiss/screenshot.png)
