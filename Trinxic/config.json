@@ -12,17 +12,6 @@
 	"opacity":		1.0,
 	"elements": [
 		{
-			"name":			"win_box",
-			"type":			"rectangle",
-			"x":			10,
-			"y":			"10px + 30px",
-			"width":		26,
-			"height":		26,
-			"rounding":		5,
-			"fill":			[ 0, 0, 0, 0.82 ],
-			"stroke":		false
-		},
-		{
 			"name":			"win_image",
 			"type":			"image",
 			"file":			"win.png",
@@ -30,10 +19,11 @@
 			"y":			"10px + (13px + 30px)",
 			"align":		"center",
 			"valign":		"middle",
-			"scale":		0.4
+			"color":		[ 0, 255, 0 ],
+			"scale":		0.5
 		},
 		{
-			"name":			"win_box2",
+			"name":			"wins_box",
 			"type":			"rectangle",
 			"x":			45,
 			"y":			"10px + 30px",
@@ -44,36 +34,27 @@
 			"stroke":		false
 		},
 		{
-			"name":			"win",
+			"name":			"wins",
 			"type":			"text",
 			"value":		"{{Win}}",
 			"x":			175,
 			"y":			"10px + (15px + 30px)",
 			"align":		"right",
 			"valign":		"middle",
-			"color":		[ 255, 255, 255 ],
-			"scale":		0.34
-		},
-		{
-			"name":			"loss_box",
-			"type":			"rectangle",
-			"x":			10,
-			"y":			"10px + (30px * 2)",
-			"width":		26,
-			"height":		26,
-			"rounding":		5,
-			"fill":			[ 0, 0, 0, 0.82 ],
-			"stroke":		false
+			"color":		[ 63, 255, 63 ],
+			"scale":		0.5
 		},
 		{
 			"name":			"loss_image",
 			"type":			"image",
-			"file":			"loss.png",
+			"file":			"arrow.png",
 			"x":			23,
 			"y":			"10px + (13px + (30px * 2))",
 			"align":		"center",
 			"valign":		"middle",
-			"scale":		0.36
+			"color":		[ 255, 0, 0 ],
+			"rotate":		180,
+			"scale":		0.5
 		},
 		{
 			"name":			"loss_box2",
@@ -94,8 +75,8 @@
 			"y":			"25px + (30px * 2)",
 			"align":		"right",
 			"valign":		"middle",
-			"color":		[ 255, 255, 255 ],
-			"scale":		0.34
+			"color":		[ 255, 63, 63 ],
+			"scale":		0.5
 		},
 		{
 			"name":			"streak_box",
@@ -111,12 +92,12 @@
 		{
 			"name":			"streak_image",
 			"type":			"image",
-			"file":			"streak.png",
+			"file":			"fire.png",
 			"x":			23,
 			"y":			"10px + (13px + (30px * 3))",
 			"align":		"center",
 			"valign":		"middle",
-			"scale":		0.4
+			"scale":		0.5
 		},
 		{
 			"name":			"streak_box2",
@@ -138,7 +119,7 @@
 			"align":		"right",
 			"valign":		"middle",
 			"color":		[ 255, 255, 255 ],
-			"scale":		0.34
+			"scale":		0.5
 		}
 	]
 }
