@@ -1,0 +1,114 @@
+{
+	"author":		"Trinxic",
+	"version":		"v1.1",
+	"date":			"07/10/2024",
+	"x":			0.0,
+	"y":			0.0,
+	"width":		180,
+	"height":		126,
+	"font":			[ "GeistMonoNerdFontMono-Bold.otf", 24 ],
+	"scale":		1.0,
+	"rotate":		0.0,
+	"opacity":		1.0,
+	"elements": [
+		{
+			"name":			"streak_image",
+			"type":			"image",
+			"file":			"fire.png",
+			"x":			4,
+			"y":			8,
+			"align":		"left",
+			"valign":		"top",
+			"scale":		0.33
+		},
+		{
+			"name":			"streak_box",
+			"type":			"rectangle",
+			"x":			"4px + 16px + 4px",
+			"y":			4,
+			"width":		"3*12px + 2*4px",
+			"height":		"32px - 16px/2",
+			"rounding":		4,
+			"fill":			[ 0, 0, 0, 0.7 ],
+			"stroke":		false
+		},
+		{
+			"name":			"streak",
+			"type":			"text",
+			"value":		"{{Streak}}",
+			"x":			"24px + 4px",
+			"y":			16,
+			"align":		"left",
+			"valign":		"middle",
+			"color":		[ 255, 255, 255 ],
+			"scale":		0.5
+		},
+		{
+			"name":			"win_image",
+			"type":			"image",
+			"file":			"arrow.png",
+			"x":			4,
+			"y":			"8px + (8px + (32px - 16px/2))",
+			"align":		"left",
+			"valign":		"top",
+			"color":		[ 0, 255, 0 ],
+			"scale":		0.25
+		},
+		{
+			"name":			"wins_box",
+			"type":			"rectangle",
+			"x":			"4px + 16px + 4px",
+			"y":			"4px + (32px - 16px/2) + 8px",
+			"width":		"3*12px + 2*4px",
+			"height":		"32px - 16px/2",
+			"rounding":		4,
+			"fill":			[ 0, 0, 0, 0.82 ],
+			"stroke":		false
+		},
+		{
+			"name":			"wins",
+			"type":			"text",
+			"value":		"{{Win}}",
+			"x":			"24px + 4px",
+			"y":			"16px + (8px + (32px - 16px/2))",
+			"align":		"left",
+			"valign":		"middle",
+			"color":		[ 63, 255, 63 ],
+			"scale":		0.5
+		},
+		{
+			"name":			"loss_image",
+			"type":			"image",
+			"file":			"arrow.png",
+			"x":			4,
+			"y":			"8px + 2*(8px + (32px - 16px/2))",
+			"align":		"left",
+			"valign":		"top",
+			"color":		[ 255, 0, 0 ],
+			"rotate":		180,
+			"scale":		0.25
+		},
+		{
+			"name":			"loss_box",
+			"type":			"rectangle",
+			"x":			"4px + 16px + 4px",
+			"y":			"4px + 2*(8px + (32px - 16px/2))",
+			"width":		"3*12px + 2*4px",
+			"height":		"32px - 16px/2",
+			"rounding":		5,
+			"fill":			[ 0, 0, 0, 0.82 ],
+			"stroke":		false
+		},
+		{
+			"name":			"loss",
+			"type":			"text",
+			"value":		"{{Loss}}",
+			"x":			"24px + 4px",
+			"y":			"16px + 2*(8px + (32px - 16px/2))",
+			"align":		"left",
+			"valign":		"middle",
+			"color":		[ 255, 63, 63 ],
+			"scale":		0.5
+		}
+	]
+}
