@@ -59,3 +59,9 @@ Groups additional themes for the RocketStats plugin
 
 ## VeksonTV
 ![VeksonTV](/VeksonTV/screenshot.png)
+
+## WLStreak - H
+![WLStreak - H](/WLStreak%20-%20H/screenshot.jpeg)
+
+## WLStreak - V
+![WLStreak - V](/WLStreak%20-%20V/screenshot.jpeg)
