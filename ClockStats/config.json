@@ -1,9 +1,11 @@
 {
 	"author":		"3lacksky",
-	"version":		"v1.0",
-	"date":			"21/21/2023",
-	"fonts":		[[ "Numbers.ttf", 25 ] , [ "Letters.ttf" , 12 ]],
-	"scale":		1.0,
+	"version":		"v1.0.0",
+	"date":			"21/12/2023",
+	"x":			"50vw",
+	"y":			0.0,
+	"fonts":		[ [ "Numbers.ttf", 25 ], [ "Letters.ttf" , 12 ] ],
+	"scale":		0.9,
 	"opacity":		0.5,
 	"elements": [
 		{
@@ -11,7 +13,7 @@
 			"type":			"text",
 			"value":		"MMR",
 			"font":			"Letters",
-			"x":			25,
+			"x":			-143,
 			"y":			9,
 			"align":		"left",
 			"valign":		"middle",
@@ -19,11 +21,11 @@
 			"scale":		0.5
 		},
 		{
-			"name":			"MMR",
+			"name":			"MMRValue",
 			"type":			"text",
 			"value":		"{{MMRCumulChange}}",
 			"font":			"Numbers",
-			"x":			25,
+			"x":			-141,
 			"y":			25,
 			"align":		"left",
 			"valign":		"middle",
@@ -35,7 +37,7 @@
 			"type":			"text",
 			"value":		"Wins",
 			"font":			"Letters",
-			"x":			311,
+			"x":			144,
 			"y":			9,
 			"align":		"right",
 			"valign":		"middle",
@@ -43,11 +45,11 @@
 			"scale":		0.5
 		},
 		{
-			"name":			"Wins",
+			"name":			"WinsValue",
 			"type":			"text",
 			"value":		"{{Win}}",
 			"font":			"Numbers",
-			"x":			309,
+			"x":			142,
 			"y":			25,
 			"align":		"right",
 			"valign":		"middle",
@@ -55,35 +57,11 @@
 			"scale":		0.5
 		},
 		{
-			"name":			"Loss",
-			"type":			"text",
-			"value":		"Loss",
-			"font":			"Letters",
-			"x":			302,
-			"y":			117,
-			"align":		"right",
-			"valign":		"middle",
-			"color":		[ 255, 255, 255 ],
-			"scale":		0.5
-		},
-		{
-			"name":			"Loss",
-			"type":			"text",
-			"value":		"{{Loss}}",
-			"font":			"Numbers",
-			"x":			303,
-			"y":			98,
-			"align":		"right",
-			"valign":		"middle",
-			"color":		[ 255, 0, 0 ],
-			"scale":		0.5
-		},
-		{
 			"name":			"Streak",
 			"type":			"text",
 			"value":		"Streak",
 			"font":			"Letters",
-			"x":			32,
+			"x":			-134,
 			"y":			117,
 			"align":		"left",
 			"valign":		"middle",
@@ -91,17 +69,41 @@
 			"scale":		0.5
 		},
 		{
-			"name":			"Streak",
+			"name":			"StreakValue",
 			"type":			"text",
 			"value":		"{{Streak}}",
 			"font":			"Numbers",
 			"sign":			"Streak",
 			"chameleon":		"Streak",
-			"x":			31,
+			"x":			-135,
 			"y":			98,
 			"align":		"left",
 			"valign":		"middle",
 			"color":		[ 255, 255, 255 ],
+			"scale":		0.5
+		},
+		{
+			"name":			"Loss",
+			"type":			"text",
+			"value":		"Loss",
+			"font":			"Letters",
+			"x":			135,
+			"y":			117,
+			"align":		"right",
+			"valign":		"middle",
+			"color":		[ 255, 255, 255 ],
+			"scale":		0.5
+		},
+		{
+			"name":			"LossValue",
+			"type":			"text",
+			"value":		"{{Loss}}",
+			"font":			"Numbers",
+			"x":			136,
+			"y":			98,
+			"align":		"right",
+			"valign":		"middle",
+			"color":		[ 255, 0, 0 ],
 			"scale":		0.5
 		}
 	]
