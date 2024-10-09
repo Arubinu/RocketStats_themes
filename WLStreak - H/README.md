@@ -1,6 +1,6 @@
 # Trinxic's WLStreak - H
 
-![WLStreak - H](/WLStreak%20-%20H/screenshot.jpeg)
+![WLStreak - H](/WLStreak%20-%20H/screenshot.png)
 
 ## Stats
 This theme simply (and cleanly) tracks your wins, losses and streak. That's it!
