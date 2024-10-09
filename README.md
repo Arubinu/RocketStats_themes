@@ -18,6 +18,9 @@ Groups additional themes for the RocketStats plugin
 ## Baguette
 ![Baguette](/Baguette/screenshot.png)
 
+## ClockStats
+![ClockStats](/ClockStats/screenshot.png)
+
 ## ColorChallenger
 ![ColorChallenger](/ColorChallenger/screenshot.png)
 
