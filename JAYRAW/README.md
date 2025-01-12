@@ -17,7 +17,7 @@ Cet overlay est conçue pour s'adapter parfaitement à la jauge de boost, vous y
 
 Si votre interface est à 75%, il vous suffira de modifier les paramètres du plugin. Vous devez régler l'échelle à 0,75, puis cliquer sur le "R" des axes "X" et "Y" pour que l'overlay soit calibrée à l'emplacement du boost. Il est possible de changer le mode d'affichage pour compter les stats d'une séance ou pour toujours.
 
-__Ma chaîne Twitch est accéssible via ce lien:__ https://www.twitch.tv/jayrawJAYRAW
+__Ma chaîne Twitch est accéssible via ce lien:__ https://www.twitch.tv/jayraw
 
 __Retrouvez mon article sur Patreon ici:__ https://www.patreon.com/posts/rocket-league-de-100496310
 
@@ -36,6 +36,6 @@ This overlay is designed to adapt perfectly to the boost gauge, you will find th
 
 If your interface is at 75%, you will just need to modify the plugin settings. You need to set the scale to 0.75, then click the "R" on the "X" and "Y" axes so that the overlay is calibrated to the boost location. It is possible to change the display mode to count the stats for a session or forever.
 
-__My Twitch channel is accessible via this link:__ https://www.twitch.tv/jayrawJAYRAW
+__My Twitch channel is accessible via this link:__ https://www.twitch.tv/jayraw
 
 __Find my article on Patreon here:__ https://www.patreon.com/posts/rocket-league-de-100496310
