@@ -1,12 +1,13 @@
 {
 	"author":		"3lacksky",
-	"version":		"v1.0.0",
+	"version":		"v1.0.1",
 	"date":			"21/12/2023",
 	"x":			"50vw",
 	"y":			0.0,
 	"fonts":		[ [ "Numbers.ttf", 25 ], [ "Letters.ttf" , 12 ] ],
-	"scale":		0.9,
+	"scale":		1.36,
 	"opacity":		0.5,
+	"width":		"6 * 60px",
 	"elements": [
 		{
 			"name":			"MMR",
