@@ -1,0 +1,170 @@
+{
+	"author":		"3lacksky",
+	"version":		"v1.0.0",
+	"date":			"04/02/2025",
+	"x":			"50vw",
+	"y":			"100vh-51px",
+	"width":		"5 * 250px",
+	"height":		51,
+	"font":			[ "Font.ttf", 35 ],
+	"scale":		1.0,
+	"opacity":		1.0,
+	"elements": [
+		{
+			"name":			"box",
+			"type":			"rectangle",
+			"x":			"-50%",
+			"y":			"5%",
+			"width":		"100%",
+			"height":		"100%",
+			"fill":			[ 0, 0, 0, 1 ]
+		},
+		{
+			"name":			"separator1",
+			"type":			"line",
+			"x1":			"-625px",
+			"y1":			0,
+			"x2":			"-625px",
+			"y2":			"101%",
+			"color":		[ 0, 170, 255, 0.6 ],
+			"scale":		2
+		},
+		{
+			"name":			"separator2",
+			"type":			"line",
+			"x1":			"-375px",
+			"y1":			0,
+			"x2":			"-375px",
+			"y2":			"101%",
+			"color":		[ 0, 170, 255, 0.6 ],
+			"scale":		2
+		},
+		{
+			"name":			"separator3",
+			"type":			"line",
+			"x1":			"-125px",
+			"y1":			0,
+			"x2":			"-125px",
+			"y2":			"101%",
+			"color":		[ 0, 170, 255, 0.6 ],
+			"scale":		2
+		},
+		{
+			"name":			"separator4",
+			"type":			"line",
+			"x1":			"125px",
+			"y1":			0,
+			"x2":			"125px",
+			"y2":			"101%",
+			"color":		[ 0, 170, 255, 0.6 ],
+			"scale":		2
+		},
+		{
+			"name":			"separator5",
+			"type":			"line",
+			"x1":			"375px",
+			"y1":			0,
+			"x2":			"375px",
+			"y2":			"101%",
+			"color":		[ 0, 170, 255, 0.6 ],
+			"scale":		2
+		},
+		{
+			"name":			"separator6",
+			"type":			"line",
+			"x1":			"625px",
+			"y1":			0,
+			"x2":			"625px",
+			"y2":			"101%",
+			"color":		[ 0, 170, 255, 0.6 ],
+			"scale":		2
+		},
+		{
+			"name":			"mmr",
+			"type":			"text",
+			"value":		"{{MMR}} MMR",
+			"x":			"-31%",
+			"y":			"50%",
+			"align":		"right",
+			"valign":		"middle",
+			"color":		[ 255, 255, 255 ],
+			"scale":		0.5
+		},
+		{
+			"name":			"rankimage",
+			"type":			"image",
+			"file":			"{{Rank}}",
+			"x":			"-47.5%",
+			"y":			"53%",
+			"align":		"center",
+			"valign":		"middle",
+			"scale":		0.6
+		},
+		{
+			"name":			"sessionmmr",
+			"type":			"text",
+			"value":		"{{MMRCumulChange}} MMR dif.",
+			"x":			"-11%",
+			"y":			"50%",
+			"align":		"right",
+			"valign":		"middle",
+			"color":		[ 255, 255, 255 ],
+			"scale":		0.5
+		},
+		{
+			"name":			"Wins",
+			"type":			"text",
+			"value":		"{{Win}}",
+			"x":			"-2%",
+			"y":			"50%",
+			"align":		"right",
+			"valign":		"middle",
+			"color":		[ 0, 255, 0 ],
+			"scale":		0.5
+		},
+		{
+			"name":			"WinsValue",
+			"type":			"text",
+			"value":		"Wins",
+			"x":			"5%",
+			"y":			"50%",
+			"align":		"right",
+			"valign":		"middle",
+			"color":		[ 255, 255, 255 ],
+			"scale":		0.5
+		},
+		{
+			"name":			"Loss",
+			"type":			"text",
+			"value":		"{{Loss}}",
+			"x":			"18%",
+			"y":			"50%",
+			"align":		"right",
+			"valign":		"middle",
+			"color":		[ 255, 0, 0 ],
+			"scale":		0.5
+		},
+		{
+			"name":			"LossValue",
+			"type":			"text",
+			"value":		"Loss",
+			"x":			"25%",
+			"y":			"50%",
+			"align":		"right",
+			"valign":		"middle",
+			"color":		[ 255, 255, 255 ],
+			"scale":		0.5
+		},
+		{
+			"name":			"Streak",
+			"type":			"text",
+			"value":		"{{Streak}}   Streak",
+			"x":			"46%",
+			"y":			"50%",
+			"align":		"right",
+			"valign":		"middle",
+			"color":		[ 255, 255, 255 ],
+			"scale":		0.5
+		}
+	]
+}
