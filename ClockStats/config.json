@@ -7,7 +7,7 @@
 	"width":		"287px",
 	"height":		"127px",
 	"fonts":		[ [ "Numbers.ttf", 25 ], [ "Letters.ttf" , 12 ] ],
-	"scale":		1.36,
+	"scale":		0.9,
 	"opacity":		0.8,
 	"elements": [
 		{
