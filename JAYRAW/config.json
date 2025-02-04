@@ -1,0 +1,112 @@
+{
+	"author":		"JAYRAW",
+	"version":		"v1.0.0",
+	"date":			"22/11/2023",
+	"x":			"100vw - (100%)",
+	"y":			"100vh - (100%)",
+	"width":		358,
+	"height":		389,
+	"font":			[ "SadanaSquare.ttf", 24 ],
+	"scale":		1.0,
+	"opacity":		1.0,
+	"elements": [
+		{
+			"name":			"JAYRAW-OVERLAY_STATS",
+			"type":			"image",
+			"file":			"overlay.png",
+			"x":			0,
+			"y":			21,
+			"scale":		2
+		},
+		{
+			"name":			"WIN",
+			"type":			"text",
+			"value":		"{{Win}}",
+			"x":			328,
+			"y":			48,
+			"align":		"center",
+			"valign":		"center",
+			"scale":		0.5
+		},
+		{
+			"name":			"LOSE",
+			"type":			"text",
+			"value":		"{{Loss}}",
+			"x":			62,
+			"y":			45,
+			"align":		"center",
+			"valign":		"center",
+			"scale":		0.5
+		},
+		{
+			"name":			"RATIO",
+			"type":			"text",
+			"value":		"{{WinPercentage}}%",
+			"x":			189,
+			"y":			-4,
+			"align":		"center",
+			"valign":		"center",
+			"scale":		0.5
+		},
+		{
+			"name":			"GOAL",
+			"type":			"text",
+			"value":		"{{Goal}}",
+			"x":			23,
+			"y":			243,
+			"align":		"center",
+			"valign":		"center",
+			"scale":		0.5
+		},
+		{
+			"name":			"DEMO",
+			"type":			"text",
+			"value":		"{{DemolitionsCumul}}",
+			"x":			65,
+			"y":			367,
+			"align":		"center",
+			"valign":		"center",
+			"scale":		0.5
+		},
+		{
+			"name":			"RANK-IMAGE",
+			"type":			"image",
+			"file":			"{{Rank}}",
+			"x":			316,
+			"y":			285,
+			"align":		"center",
+			"valign":		"center",
+			"scale":		1.5
+		},
+		{
+			"name":			"MMR",
+			"type":			"text",
+			"value":		"{{MMR}}",
+			"x":			316,
+			"y":			350,
+			"align":		"center",
+			"valign":		"center",
+			"scale":		0.5
+		},
+		{
+			"name":			"MMRCHANGE",
+			"type":			"text",
+			"value":		"{{MMRChange}}",
+			"x":			250,
+			"y":			318,
+			"align":		"center",
+			"valign":		"center",
+			"scale":		0.5
+		},
+		{
+			"name":			"DIVISION",
+			"type":			"text",
+			"value":		"{{DivNumber}}",
+			"x":			317,
+			"y":			270,
+			"align":		"center",
+			"valign":		"center",
+			"scale":		0.5
+		}
+	]
+}
