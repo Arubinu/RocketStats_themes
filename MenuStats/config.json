@@ -26,8 +26,28 @@
 			"y1":			0,
 			"x2":			"-625px",
 			"y2":			"101%",
-			"color":		[ 0, 170, 255, 0.6 ],
+			"color":		[ 69, 109, 135, 1.0 ],
 			"scale":		2
+		},
+		{
+			"name":			"separator1left",
+			"type":			"line",
+			"x1":			"-623px",
+			"y1":			0,
+			"x2":			"-623px",
+			"y2":			"101%",
+			"color":		[ 69, 109, 135, 0.2 ],
+			"scale":		4
+		},
+		{
+			"name":			"separator1right",
+			"type":			"line",
+			"x1":			"-627px",
+			"y1":			0,
+			"x2":			"-627px",
+			"y2":			"101%",
+			"color":		[ 69, 109, 135, 0.2 ],
+			"scale":		4
 		},
 		{
 			"name":			"separator2",
@@ -36,8 +56,28 @@
 			"y1":			0,
 			"x2":			"-375px",
 			"y2":			"101%",
-			"color":		[ 0, 170, 255, 0.6 ],
+			"color":		[ 69, 109, 135, 1.0 ],
 			"scale":		2
+		},
+		{
+			"name":			"separator2left",
+			"type":			"line",
+			"x1":			"-373px",
+			"y1":			0,
+			"x2":			"-373px",
+			"y2":			"101%",
+			"color":		[ 69, 109, 135, 0.2 ],
+			"scale":		4
+		},
+		{
+			"name":			"separator2right",
+			"type":			"line",
+			"x1":			"-377px",
+			"y1":			0,
+			"x2":			"-377px",
+			"y2":			"101%",
+			"color":		[ 69, 109, 135, 0.2 ],
+			"scale":		4
 		},
 		{
 			"name":			"separator3",
@@ -46,8 +86,28 @@
 			"y1":			0,
 			"x2":			"-125px",
 			"y2":			"101%",
-			"color":		[ 0, 170, 255, 0.6 ],
+			"color":		[ 69, 109, 135, 1.0 ],
 			"scale":		2
+		},
+		{
+			"name":			"separator3left",
+			"type":			"line",
+			"x1":			"-123px",
+			"y1":			0,
+			"x2":			"-123px",
+			"y2":			"101%",
+			"color":		[ 69, 109, 135, 0.2 ],
+			"scale":		4
+		},
+		{
+			"name":			"separator3right",
+			"type":			"line",
+			"x1":			"-127px",
+			"y1":			0,
+			"x2":			"-127px",
+			"y2":			"101%",
+			"color":		[ 69, 109, 135, 0.2 ],
+			"scale":		4
 		},
 		{
 			"name":			"separator4",
@@ -56,8 +116,28 @@
 			"y1":			0,
 			"x2":			"125px",
 			"y2":			"101%",
-			"color":		[ 0, 170, 255, 0.6 ],
+			"color":		[ 69, 109, 135, 1.0 ],
 			"scale":		2
+		},
+		{
+			"name":			"separator4left",
+			"type":			"line",
+			"x1":			"123px",
+			"y1":			0,
+			"x2":			"123px",
+			"y2":			"101%",
+			"color":		[ 69, 109, 135, 0.2 ],
+			"scale":		4
+		},
+		{
+			"name":			"separator4right",
+			"type":			"line",
+			"x1":			"127px",
+			"y1":			0,
+			"x2":			"127px",
+			"y2":			"101%",
+			"color":		[ 69, 109, 135, 0.2 ],
+			"scale":		4
 		},
 		{
 			"name":			"separator5",
@@ -66,8 +146,28 @@
 			"y1":			0,
 			"x2":			"375px",
 			"y2":			"101%",
-			"color":		[ 0, 170, 255, 0.6 ],
+			"color":		[ 69, 109, 135, 1.0 ],
 			"scale":		2
+		},
+		{
+			"name":			"separator5left",
+			"type":			"line",
+			"x1":			"373px",
+			"y1":			0,
+			"x2":			"373px",
+			"y2":			"101%",
+			"color":		[ 69, 109, 135, 0.2 ],
+			"scale":		4
+		},
+		{
+			"name":			"separator5right",
+			"type":			"line",
+			"x1":			"377px",
+			"y1":			0,
+			"x2":			"377px",
+			"y2":			"101%",
+			"color":		[ 69, 109, 135, 0.2 ],
+			"scale":		4
 		},
 		{
 			"name":			"separator6",
@@ -76,8 +176,28 @@
 			"y1":			0,
 			"x2":			"625px",
 			"y2":			"101%",
-			"color":		[ 0, 170, 255, 0.6 ],
+			"color":		[ 69, 109, 135, 1.0 ],
 			"scale":		2
+		},
+		{
+			"name":			"separator6left",
+			"type":			"line",
+			"x1":			"623px",
+			"y1":			0,
+			"x2":			"623px",
+			"y2":			"101%",
+			"color":		[ 69, 109, 135, 0.2 ],
+			"scale":		4
+		},
+		{
+			"name":			"separator6right",
+			"type":			"line",
+			"x1":			"627px",
+			"y1":			0,
+			"x2":			"627px",
+			"y2":			"101%",
+			"color":		[ 69, 109, 135, 0.2 ],
+			"scale":		4
 		},
 		{
 			"name":			"mmr",
@@ -158,10 +278,24 @@
 		{
 			"name":			"Streak",
 			"type":			"text",
-			"value":		"{{Streak}}   Streak",
+			"value":		"Streak",
 			"x":			"46%",
 			"y":			"50%",
 			"align":		"right",
+			"valign":		"middle",
+			"color":		[ 255, 255, 255 ],
+			"scale":		0.5
+		},
+		{
+			"name":			"StreakValue",
+			"type":			"text",
+			"value":		"{{Streak}}",
+			"font":			"Numbers",
+			"sign":			"Streak",
+			"chameleon":		"Streak",
+			"x":			"35%",
+			"y":			"50%",
+			"align":		"left",
 			"valign":		"middle",
 			"color":		[ 255, 255, 255 ],
 			"scale":		0.5
