@@ -51,6 +51,9 @@ Groups additional themes for the RocketStats plugin
 ## Lurrgar
 ![Lurrgar](/Lurrgar/screenshot.png)
 
+## MenuStats
+![MenuStats](/MenuStats/screenshot.png)
+
 ## Marker
 ![Marker](/Marker/screenshot.png)
 
