@@ -7,7 +7,7 @@
 	"width":		"5 * 250px",
 	"height":		"51px",
 	"font":			[ "Font.ttf", 35 ],
-	"scale":		0.87,
+	"scale":		0.89,
 	"opacity":		1.0,
 	"elements": [
 		{
