@@ -1,0 +1,68 @@
+{
+	"author":		"Bergethon",
+	"version":		"v1.0.0",
+	"date":			"01/07/2025",
+	"x":			"100vw - (100% + 150px)",
+	"y":			"100vh - (100% - 20px)",
+	"width":		400,
+	"height":		300,
+	"font":			[ "font.otf", 100 ],
+	"scale":		1.25,
+	"opacity":		1,
+	"elements": [
+		{
+			"name":			"background",
+			"type":			"image",
+			"file":			"background.png",
+			"x":			0,
+			"y":			0,
+			"scale":		1.6
+		},
+		{
+			"name":			"mmrcumulchange",
+			"type":			"text",
+			"value":		"{{MMRCumulChange}}",
+			"sign":			"MMRCumulChange",
+			"x":			180,
+			"y":			22,
+			"align":		"right",
+			"valign":		"middle",
+			"color":		[ 255, 255, 255 ],
+			"scale":		0.18
+		},
+		{
+			"name":			"streak",
+			"type":			"text",
+			"value":		"{{Streak}}",
+			"sign":			"Streak",
+			"x":			180,
+			"y":			77,
+			"align":		"right",
+			"valign":		"middle",
+			"color":		[ 2, 66, 102 ],
+			"scale":		0.18
+		},
+		{
+			"name":			"win",
+			"type":			"text",
+			"value":		"{{Win}}",
+			"x":			180,
+			"y":			130,
+			"align":		"right",
+			"valign":		"middle",
+			"color":		[ 255, 255, 255 ],
+			"scale":		0.18
+		},
+		{
+			"name":			"loss",
+			"type":			"text",
+			"value":		"{{Loss}}",
+			"x":			180,
+			"y":			186,
+			"align":		"right",
+			"valign":		"middle",
+			"color":		[ 255, 255, 255 ],
+			"scale":		0.18
+		}
+	]
+}
