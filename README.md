@@ -61,7 +61,7 @@ Groups additional themes for the RocketStats plugin
 ![Marker](/Marker/screenshot.png)
 
 ## NativeTheme
-![Notis](/NativeTheme/screenshot.png)
+![NativeTheme](/NativeTheme/screenshot.png)
 
 ## Notis
 ![Notis](/Notis/screenshot.png)
