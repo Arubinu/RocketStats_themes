@@ -18,6 +18,9 @@ Groups additional themes for the RocketStats plugin
 ## Baguette
 ![Baguette](/Baguette/screenshot.png)
 
+## ClassicUI
+![ClockStats](/ClassicUI/screenshot.png)
+
 ## ClockStats
 ![ClockStats](/ClockStats/screenshot.png)
 
@@ -56,6 +59,9 @@ Groups additional themes for the RocketStats plugin
 
 ## Marker
 ![Marker](/Marker/screenshot.png)
+
+## NativeTheme
+![Notis](/NativeTheme/screenshot.png)
 
 ## Notis
 ![Notis](/Notis/screenshot.png)
