@@ -30,22 +30,22 @@
 			"color":		[ 90, 64, 5 ],
 			"scale":		0.20
 		},
+
 		{
-			"name":			"streak",
+			"name":			"win",
 			"type":			"text",
-			"value":		"{{Streak}}",
-			"sign":			"Streak",
+			"value":		"{{Win}}",
 			"x":			140,
-			"y":			84,
+			"y":			85,
 			"align":		"right",
 			"valign":		"middle",
 			"color":		[ 2, 66, 90 ],
 			"scale":		0.20
 		},
 		{
-			"name":			"win",
+			"name":			"loss",
 			"type":			"text",
-			"value":		"{{Win}}",
+			"value":		"{{Loss}}",
 			"x":			140,
 			"y":			137,
 			"align":		"right",
@@ -54,11 +54,12 @@
 			"scale":		0.20
 		},
 		{
-			"name":			"loss",
+			"name":			"streak",
 			"type":			"text",
-			"value":		"{{Loss}}",
+			"value":		"{{Streak}}",
+			"sign":			"Streak",
 			"x":			155,
-			"y":			192,
+			"y":			191,
 			"align":		"right",
 			"valign":		"middle",
 			"color":		[ 255, 255, 255 ],
